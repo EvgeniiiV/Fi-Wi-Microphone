@@ -1,0 +1,9 @@
+# ESP-IDF build output
+/build/
+
+# Local configuration files
+sdkconfig.local
+sdkconfig.old
+
+# IDE-specific files 
+.vscode/
