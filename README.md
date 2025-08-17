@@ -49,10 +49,13 @@ The repository is organized into two main parts: the ESP32 firmware and the Pyth
 
 ### 2. Python Client
 
-Скрипт на Python принимает аудиопоток с микрофона.
+The Python script receives the audio stream from the microphone.
 
-1.  Перейдите в директорию `python_client`.
-2.  Запустите скрипт:
+**Before running the client, make sure to connect your computer to the Wi-Fi access point created by the ESP32!**
+
+1.  Connect to the Wi-Fi network broadcast by your ESP32 device (the SSID and password are set in the firmware configuration).
+2.  Navigate to the `python_client` directory.
+3.  Run the script:
     ```bash
     cd python_client
     python connection_gui_2.py
