@@ -1,9 +1,56 @@
 # ESP-IDF build output
-/build/
+build/
+**/build/
+*.bin
+*.elf
+*.map
+*.log
+*.pyc
+*.pyo
+*.exe
+*.out
+*.a
+*.o
+*.d
+*.gcda
+*.gcno
+*.gcov
+*.orig
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.user
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.7z
+*.DS_Store
 
 # Local configuration files
 sdkconfig.local
 sdkconfig.old
+sdkconfig
+sdkconfig.*
 
-# IDE-specific files 
+# Python
+__pycache__/
+python_client/__pycache__/
+python_client/*.pyc
+
+# IDE-specific files
 .vscode/
+.idea/
+.history/
+.env/
+.venv/
+venv/
+env/
+
+# Misc
+.gdb_history
+.cproject
+.project
+.settings/
