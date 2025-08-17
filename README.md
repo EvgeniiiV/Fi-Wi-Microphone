@@ -25,7 +25,15 @@ The repository is organized into two main parts: the ESP32 firmware and the Pyth
 ├── python_client/     # Python script to receive the audio stream on a PC
 │   └── connection_gui_2.py
 ├── .gitignore         # Git ignore rules for both projects
+├── LICENSE            # Project license (MIT)
 └── README.md          # This file
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+This software is provided "as is", without warranty of any kind, express or implied. Use at your own risk. The authors are not responsible for any damage or loss caused by the use of this project.
 ```
 
 
